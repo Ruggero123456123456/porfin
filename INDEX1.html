@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset= "utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PROYECTO EQUIPO BETA</title>
+<!---BOOSTRAP5-->
+<!---<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+ rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+ crossorigin="anonymous">---->
+ <link rel="stylesheet" href="bootstrap.min.css">
+ <link rel="stylesheet" href="ESTILO1.css">
+</head>
+
+<body>
+    
+
+<div class="container"> 
+    <nav class="contenedor1">
+    </nav>
+    <input type="submit" class="ingresar_boton"
+    value="Iniciar sesión" onclick="location.href=
+    'INDEX2.html'">
+
+   <div class="row" style="margin-top:50px"> 
+       <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7"> 
+      <h1 class="titulos">Constanza Gonzáles DellaOtt</h1>
+      <hr>
+       </div> 
+       <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5"> 
+      <h2 class="titulos" style="text-align:left; color:rgb(255, 132, 0);
+      margin-top:28px; margin-left:0">Psicóloga Clínica </h2>
+      <h3 style="color:#6F97FF"><i>Niños, Jóvenes y Adultos</i></h3>
+      <hr>
+       </div>
+    </div>  
+    
+<div class="row" style="margin-top:80px">
+    
+
+    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+    <img   style="width:max-content; height:85%"  src="psico2.png" alt="...">
+    
+    </div>
+    
+    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+    <div class="text__information_cover">
+    <p><strong> Biografía profesional
+            </strong><br><br><br>Desde pequeña <strong>Constanza Gonzales</strong> se destacó 
+                como deportista en el 
+                <strong>Colegio des France</strong>, donde cursó toda su enseñanza básica
+                 y media; 
+                llegando a ser seleccionada nacional de Hockey sobre césped.<br><br><br>
+                Pero su amor por la ciencia pudo más y, en 2015, postuló a la carrera de
+                <strong>Psicología</strong>; ubicándose entre los primeros puntajes de su 
+                generación <br><br><br>
+                Desde ahí en adelante, su amor por la disciplina, la hizo 
+                realizar varios post-grados
+                y post-títulos en el área. Especializandose, principalmente, en la realidad de los 
+                conflictos internos que atraviesan los adolescentes en una sociedad cada 
+                vez más competitiva y demandante, en la cual la ansiedad es un denominador
+                 común en el
+                quehacer de jóvenes de todas las nacionalidades y culturas.
+                </p>
+                <br>
+                <hr>
+    </div>
+ 
+    
+    </div>
+</div>    
+
+
+
+<div class="row">
+    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+        <div class="texto">
+            <div class="registre">
+                
+                <h4 style="text-align:left; margin-top: -90px;">
+                    Registre sus datos</h4>
+                </div>    
+            <hr><p>Nuestro enfoque incluye la mezcla de psicoterapia transpersonal y 
+                de terapias 
+                complementarias como meditación, mindfulness, flores de Bach y Aroma terapia
+                , logrando un tratamiento integral, moderno y holístico. <br><br>
+                Nuestro objetivo es ayudarle a mejorar su nivel de plenitud y satisfacción para 
+                con los distintos aspectos de la vida personal y profesional.<br><br>
+                Contamos con convenios con <strong>Isapres</strong>, <strong>FFAA</strong>
+                y compra de bono <strong>Fonasa</strong> en consulta, con huella digital.
+
+
+                
+                <br></b><br><br><b> Registre sus datos en el formulario y le contactaremos >></b>
+               
+                 
+                </p>
+                <br>
+                <hr>
+                <br><br><br><br><br>
+                
+        </div>  
+    </div>
+
+    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <br><form action="" class="formulario">
+               
+                
+            <input type="text" class="input">
+            <label for="" class="label">Nombre</label>
+            <input type="text" class="input_rut" onsubmit="">
+            <label for="" class="label_rut">Rut</label> 
+             <input type="text" class="input">
+            <label for="" class="label">Teléfono</label>
+            <input type="text" class="input">
+            <label for="" class="label">Correo</label> 
+            
+            
+              
+            
+             
+            
+            <div>
+            <input type="submit" class="boton" value="Guardar"> 
+            
+            </div>
+            </form>
+            
+            
+            
+
+</div>
+
+<!-----<script>
+  var rut = document.getElementsByClassName("input_rut");
+  for (rut = 111111111)
+function validacion() {
+  if (rut = 111111111)}else{
+    // Si no se cumple la condicion...
+    alert('[ERROR] El campo debe tener 9 dígitos');
+    return false;
+  }
+
+</script> ----->
+   
+
+    <script>
+        var inputs = document.getElementsByClassName("input");
+      for (var i = 0; i < inputs.length; i++) {
+        inputs[i].addEventListener("keyup", function () {
+        if (this.value.length >= 1) {
+           this.nextElementSibling.classList.add("fijar");
+         } else {
+           this.nextElementSibling.classList.remove("fijar");
+         }
+        });
+      }
+</script>
+ 
+<script>
+  var inputs = document.getElementsByClassName("input_rut");
+for (var i = 0; i < inputs.length; i++) {
+  inputs[i].addEventListener("keyup", function () {
+  if (this.value.length >= 1) {
+     this.nextElementSibling.classList.add("fijar");
+   } else {
+     this.nextElementSibling.classList.remove("fijar");
+   }
+  });
+}
+</script>
+
+  
+    
+    <nav class="footer"> 
+     <div>
+      <br>
+    <p style="font-size:small">Teléfono     -  (45) 2 410924<br><br>
+       Email   -   Constanza.psico.happy@gmail.com &nbsp &nbsp &nbsp &nbsp<br><br>
+       Dirección  -  San Martín 1819, Temuco</p>
+    </div>
+    </nav>
+
+    
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
